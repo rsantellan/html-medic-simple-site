@@ -1,0 +1,271 @@
+.popupitem_icon_disabled {
+	width: 21px;
+	height: 20px;
+	cursor: pointer;
+	-moz-opacity: 0.30;
+}
+
+.TB_Button_Disabled {
+	-moz-opacity: 0.30;
+}
+
+
+/* Used for popup menu's when menu option icon is disabled.
+Example, when right clicking and cut, copy or paste are not enabled */
+.icon_disabled {
+	-moz-opacity: 0.30;
+}
+
+.TB_ButtonDrop_Disabled {
+	border: 1px solid #EAE8E4;
+	-moz-opacity: 0.30;
+}
+
+/* Media Manager Styles */
+
+.tabOn
+{
+	font-family: Arial;
+	font-size: 12px;
+	width: 74px;
+	height: 20px;
+	text-align: center;
+	background-image: url(../../images/tab.active.png);
+	background-repeat: no-repeat;
+	padding-top: 2px;
+	margin-right: 2px;
+	z-index: 100;
+}
+
+.tabOff
+{
+	font-family: Arial;
+	font-size: 12px;
+	width: 70px;
+	height: 20px;
+	text-align: center;
+	background-image: url(../../images/tab.png);
+	background-repeat: no-repeat;
+	padding-top: 2px;
+	margin-right: 2px;
+	z-index: 100;
+}
+
+.imageTabOn
+{
+	position: absolute;
+	left: 10px;
+	top: 15px;
+}
+
+.imageTabOff
+{
+	position: absolute;
+	left: 10px;
+	top: 14px;
+}
+
+.flashTabOn
+{
+	position: absolute;
+	left: 85px;
+	top: 15px;
+}
+
+.flashTabOff
+{
+	position: absolute;
+	left: 85px;
+	top: 14px;
+}
+
+.mediaTabOn
+{
+	position: absolute;
+	left: 157px;
+	top: 15px;
+}
+
+.mediaTabOff
+{
+	position: absolute;
+	left: 157px;
+	top: 14px;
+}
+
+.box
+{
+	width: 630px;
+	height: 450px;
+	background-color: #FCFCFE;
+	border: solid 1px #879EAC;
+	position: absolute;
+	left: 10px;
+	top: 36px;
+}
+
+.ButtonOff
+{
+	border: solid 1px #F4F4F4;
+}
+
+.ButtonOn
+{
+	border: solid 1px darkblue;
+	background-color: #f2f6fc;
+}
+
+.ButtonDisabled
+{
+	-moz-opacity: 0.30;
+}
+
+.Folder
+{
+	color: black;
+	text-decoration: none;
+}
+
+.Folder:hover
+{
+	color: blue;
+	text-decoration: underline;
+}
+
+.Input
+{
+	position: absolute;
+	left: 130px;
+	top: 150px;
+	width: 400px;
+	height: 100px;
+	background-color: #ECE9D8;
+	z-index: 2000;
+	border: solid 1px gray;
+	font-family:  Arial;
+	font-size: 12px;
+	display: none;
+}
+
+.InputText
+{
+	width: 81%;
+	height: 70%;
+	padding: 10px;
+}
+
+.InputOK
+{
+	position: absolute;
+	left: 337px;
+	top: 10px;
+	font-family: Arial;
+	font-size: 11px;
+	width: 55px;
+}
+
+.InputCancel
+{
+	position: absolute;
+	left: 337px;
+	top: 35px;
+	font-family: Arial;
+	font-size: 11px;
+	width: 55px;
+}
+
+.InputBox
+{
+	position: absolute;
+	left: 10px;
+	top: 65px;
+	font-family: Arial;
+	font-size: 12px;
+	width: 380px;
+}
+
+.FolderBox
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	padding: 3px 0px 0px 5px;
+	background-color: gray;
+	margin: 14px 0px -12px 15px;
+	height: 18px;
+	width: 256px;
+}
+
+.ThumbTD
+{
+	width: 33%;
+	height: 65px;
+}
+
+.ThumbDiv
+{
+	width: 60px;
+	height: 60px;
+	border: solid 1px #ECE9D8;
+	margin: 7px 5px 5px 9px;
+}
+
+.ThumbA
+{
+	color: black;
+	text-decoration: none;
+}
+
+.ThumbA:hover
+{
+	text-decoration: underline;
+}
+
+.PreviewBox
+{
+	position: absolute;
+	left: 275px;
+	top: 53px;
+	font-family: Arial;
+	font-size: 11px;
+	height: 140px;
+	border: solid 1px gray;
+	margin: 15px;
+	overflow: auto;
+	background-color: white;
+	padding: 10px;
+	width: 290px;
+}
+
+.ImagePropWin
+{
+	position: absolute;
+	left: 275px;
+	border: solid 1px gray;
+	margin: 15px;
+	overflow: auto;
+	background-color: white;
+	padding: 5px;
+	top: 230px;
+	height: 150px;
+	width: 301px;
+}
+
+.ImageInsert
+{
+	font-family: Arial;
+	font-size: 11px;
+	position: absolute;
+	top: 418px;
+	left: 460px;
+}
+
+.ImageCancel
+{
+	font-family: Arial;
+	font-size: 11px;
+	position: absolute;
+	top: 418px;
+	left: 550px;
+}

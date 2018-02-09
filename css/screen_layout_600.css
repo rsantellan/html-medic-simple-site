@@ -1,0 +1,337 @@
+@charset "UTF-8";
+
+/* Layout Small Screens */
+body { overflow-x:hidden; /*background: yellow;*/ }
+/*.content{
+  width: 98.5%;
+  margin: 0 0.75%;
+	}
+.content_page img.images_top{
+  width: 100%;
+  }*/
+  .header_right{
+    width: 74%;
+    }
+  .header_left{
+    width: 25%;
+    }
+.header_left img{
+   width: 90%;
+  }
+ul.redes li{
+    margin-left: 1.5%;
+   }
+.redes_header{
+	margin-bottom:35px; 
+	}
+.search{
+	width: 35%;
+	}
+    .search input.search_submit{
+      	width: 100%;
+    	}
+    .search input.search_text{
+      width: 78%;
+  		}
+    .content_text img{
+      width: 100%;;
+      }
+@media screen and (max-width: 550px) {
+	.header_left img{width: 95%;}
+ 	ul.redes li{margin-left: 2%;}
+  .search{width: 40%;}
+  .cd-tabs nav.tabs_clinicas{width: 92% !important;}
+  form.forms_info .varioscheck{
+	width: 100%;
+	float:none;
+    }
+  }
+@media (max-width: 533px){
+  .bt-header{margin-right: 0; margin-bottom: 15px; margin-top:0;}
+}
+  @media screen and (max-width: 491px) {
+      .cd-tabs nav.tabs_clinicas{width: 94% !important;}
+    }
+ .flexnav .touch-button .navicon {
+  display: inline-block !important;
+  }
+.flexnav li a {
+	padding: 1em 1.2em !important;
+	height: auto !important;
+	line-height: inherit !important;
+	text-align: left !important;
+	}
+.flexnav li ul li{
+	width: 96% !important;
+	padding: 0 2% !important;
+	}
+.flexnav li ul li a{
+	font-size: 14px !important;
+	}
+	.flexnav li a{
+		font-size: 17px !important;
+		}
+	.menu-button{
+	font-size: 17px !important;
+	}
+iframe.login{
+	width: 94%; 
+	float:none; 
+	padding: 1% 2%; 
+	overflow: hidden;
+	}
+      iframe#view_large{
+        display: inline;
+        }
+      iframe#view_medium_large{
+        display: none;
+        }
+      iframe#view_small{
+        display: none;
+        }
+.slider_content{
+  width: 98%; 
+  margin-left:1%; 
+  margin-right:1%;
+  float: none;
+	}
+iframe.login form{
+	width: 98%; 
+	float: none;
+	margin-left: 1%; 
+	margin-right: 1%; 
+	margin-top: 3%;
+	}
+	iframe.login_links{
+		width: 100%; 
+		float: none;
+		}
+		iframe.login_links ul{
+			float: left;
+			margin-left: 6%;
+			}
+	iframe.login form label{
+		width: 18%;
+		}
+	iframe.login form input{
+		width: 51%;
+		}
+    iframe.login p{
+    	right: 44%;
+    	}
+      iframe.login hr{
+      	display: none;
+        }
+        iframe.login hr.hr_600{
+        display: inline-block;
+        width: 100%;
+        height: 1px;
+        background: #ffffff;
+        color: #ffffff;
+        border:none;
+        margin:10px 0;
+        }
+
+.block_home{
+	width: 100%;
+	float: none;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	overflow: hidden;
+	}
+.block_home_img{width: 45%;margin-bottom: 3px;float: left; overflow: hidden;}
+.block_home img{
+    width: 100%;
+    margin-bottom: 3px;
+    float: none;
+    }
+.block_home_center{
+  margin-left: 1%;
+  }
+.block_home_right{
+  margin-left: 1%;
+  }
+.block_text{
+    float: left;
+    width: 52%;
+    }
+.footer_datos{
+	float: none; 
+	margin-bottom: 1%; 
+	width: 100%;
+	}
+.footer_logos{
+	float: none; 
+	width: 25%;
+	}
+footer{
+	position: relative;
+	}
+.footer_news{
+	position: absolute;
+	right: 2%; 
+	top: 46%; 
+	width: 45%;
+	}
+.submenu{
+	display: none;
+	}
+.memoria h4{
+    font-size: 14px;
+    line-height: 14px;
+    }
+    .memoria img{
+    	width: 80%;
+    	}
+.rse_instituciones h4{
+    font-size: 14px;
+	}
+.rse_logos a img{
+	width: 27%;
+	margin-right: 8%;
+	}
+.rse_logos a img.logo_gr{
+	width: 18%;
+	}
+.medicos_unac{
+	display: none;
+	}
+.medicos_tresc{
+	display: none;
+	}
+.medicos_dosc{
+	display: inline;
+	}
+.plantilla_medicos{
+	width: 46%;
+	margin-left:2%; 
+	margin-right: 2%;
+	}
+.cd-tabs nav.tabs_clinicas{
+	width: 85%;
+	}	
+	.cd-tabs-navigation li {
+		margin: 0 1%;
+		}
+.cd-tabs-navigation a {
+  padding: 4px 10px;
+  font-size: 13px;
+	}
+.cd-tabs{
+	margin-top: 5px;
+	}	
+.clinica_nombre{
+  width: 45%;
+  float: left;
+  margin: 0 2.5%;
+  }
+.clinica_horarios{
+  width: 45%;
+  float: left;
+  margin: 0 2.5%;
+  }
+.clinica_especialidades{
+  width: 95%;
+  float: none;
+  margin: 6% 2.5% 4% 2.5%;
+  }
+   .clinica_especialidades .google_map iframe{
+      width: 100%;
+      height: 200px;
+      margin: 10px 0;
+     }
+.emergencias_map iframe{
+  height: 350px;
+  }
+.cd-tabs nav.tabs_beneficios {
+	width: 98%;
+	}
+   .cd-tabs-navigation li.beneficios {
+    	margin: 0 0.3%;
+    	}
+    .cd-tabs-navigation li.beneficios a{
+    	padding: 8px 8px;
+    	}
+    	@media screen and (max-width: 569px){
+    		.cd-tabs-navigation li.beneficios a{font-size: 12px;padding: 8px 8px;}
+    	}
+      @media screen and (max-width: 555px){
+        .cd-tabs nav.tabs_mes_mes{width: 82% !important;} 
+        }
+      @media screen and (max-width: 527px){
+        .cd-tabs nav.tabs_mes_mes{width: 85% !important;} 
+        }
+    	@media screen and (max-width: 531px){
+    		.cd-tabs-navigation li.beneficios a{font-size: 12px;padding: 8px 6px;}
+    		}
+    	@media screen and (max-width: 507px){
+    		.cd-tabs-navigation li.beneficios a{font-size: 12px;padding: 8px 4px;}
+        .cd-tabs nav.tabs_mes_mes{width: 88% !important;} 
+    		}
+    	@media screen and (max-width: 500px){
+    		.cd-tabs nav.tabs_beneficios {width: 85%;}
+			.cd-tabs-navigation li.beneficios a{font-size: 14px;padding: 5px 8px;}
+			.cd-tabs-navigation li.beneficios_first{margin-left: 16% !important;}
+			.cd-tabs-navigation li.beneficios_secondline{margin-left: 12% !important;}
+	   		.cd-tabs-navigation li.beneficios {margin: 1.5% 1%;}
+    		}
+      @media screen and (max-width: 490px){
+        .cd-tabs nav.tabs_mes_mes{width: 90% !important;} 
+        }
+.cd-tabs nav.tabs_mes_mes{
+  width: 78%;
+  } 
+.beneficio_img{
+    width: 80%;
+    margin: 0 auto 5px auto;
+    float: none;
+    }
+  .beneficio_text{
+    width: 100%;
+    float: none;
+    text-align: center;
+    }
+table.table_fonasa{
+  width: 70%;
+  }
+  table.table_fonasa td{
+    width: 35%;
+    }
+form.forms_info{
+  width: 90%;
+  }
+
+.block_noticias,
+.block_entrevistas{
+  float: none;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 410px;
+  margin-bottom: 10px;
+  }
+    @media (max-width: 533px){
+    .block_entrevistas{height: 370px !important;}
+    }
+
+  .block_noticias p,
+  .block_entrevistas p{
+    margin-bottom: 15px;
+    }
+  .block_noticias a.btn {
+    left: 45%;
+    position: relative;
+    }
+.contacto_datos{
+  float: left;
+  width: 48%;
+  margin-right: 2%;
+  }
+.contacto_form{
+  width: 100%;
+  float: none;
+  margin-top: 25px;
+  } 
+  .contacto_form form{
+    width: 90%;
+    }

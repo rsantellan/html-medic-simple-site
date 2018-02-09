@@ -1,0 +1,433 @@
+@charset "UTF-8";
+
+/* Layout Small Screens */
+body { overflow-x:hidden; /*background-color: red;*/}
+
+/*.content{
+  width: 97%;
+  margin: 0 1.5%;
+}*/
+.content_page img.images_top{
+  margin:1.5% 1% 1% 1%;
+  }
+  .header_right{
+    width: 64%;
+    }
+  .header_left{
+    width: 35%;
+    }
+.header_left img{
+   width: 90%;
+  }
+.redes_header{
+	display: none;
+	}
+  .redes_content{
+    display: inline;
+    }
+    ul.redes {
+    	margin-top: 3%
+   	 	}
+    ul.redes li{
+    	margin:0 2%;
+    	}
+.search{
+	width: 75%;
+	margin-top: 40px;
+	}
+    .search input.search_submit{
+        width: 100%;
+      }
+    .search input.search_text{
+      width: 78%;
+  		}
+nav ul{
+  width: 99% !important;
+  margin-left: 0 !important;
+  }
+ .flexnav .touch-button .navicon {
+  display: inline-block !important;
+  }
+.flexnav li a {
+	padding: 1em 1.2em !important;
+	height: auto !important;
+	line-height: inherit !important;
+	text-align: left !important;
+	}
+.flexnav li ul li{
+	width: 96% !important;
+	padding: 0 2% !important;
+	}
+.flexnav li ul li a{
+	font-size: 15px !important;
+	}
+	.flexnav li a{
+		font-size: 18px !important;
+		}
+	.menu-button{
+	font-size: 18px !important;
+	}
+.flexnav .touch-button{
+	right: 5% !important;
+	top: 5% !important;
+	}
+iframe.login{
+	width: 94%; 
+	float:none; 
+	padding: 1% 2%; 
+	overflow: hidden;
+	margin-top: 10px;
+	}
+      iframe#view_large{
+        display: inline;
+        }
+      iframe#view_medium_large{
+        display: none;
+        }
+      iframe#view_small{
+        display: none;
+        }
+.slider_content{
+  width: 98%; 
+  margin-left:1%; 
+  margin-right:1%;
+  float: none;
+	}
+iframe.login form{
+	width: 98%; 
+	float: none;
+	margin-left: 1%; 
+	margin-right: 1%; 
+	margin-top: 6%;
+	}
+	iframe.login_links{
+		width: 100%; 
+		float: none;
+		}
+		iframe.login_links ul{
+			margin-left: 6%;
+			}
+			iframe.login_links ul li{
+				padding-bottom: 2%;
+				}
+	iframe.login form label{
+		width: 30%;
+		}
+	iframe.login form input{
+		width: 64%;
+		}
+    iframe.login p{
+    	right: 3%;
+    	}
+        hr.hr_600{
+ 		display: none;
+        }
+.block_home{
+	float: none;
+	margin-top: 5px;
+	}
+.block_home_img{width: 100%;margin-bottom: 3px;float: none; overflow: hidden;}
+.block_home img{
+    width: 100%;
+    margin-bottom: 3px;
+    float: none;
+    }
+.block_home_left,
+.block_home_center,
+.block_home_right{
+  margin-left:1%;
+  margin-right: 1%;
+  width: 98% 
+  }
+
+.block_text{
+    float: none;
+    width: 100%;
+    }
+    footer{
+    	position: relative;
+    	}
+    .footer_logos{
+    	float: left;
+    	width: 40%;
+    	}
+    	.footer_datos{
+    		float: none; 
+    		width: 100%; 
+    		margin-bottom: 3%;
+    		}
+    		.footer_datos p{
+    			font-size: 11px;
+    			line-height: 14px;
+    			}
+    	.footer_news{
+			display: none;
+    		}
+    	.smartphone_news{
+    		display: inline;
+    		width: 98%;
+    		}
+		    .smartphone_news p {
+		      color: #d9c9ba;
+		      font-size: 14px;
+		      font-family: 'anomolymediumregular';
+		      text-transform: uppercase;      
+		      margin: 0 0 1% 1%;
+		      }
+		    .smartphone_news form{
+		    	width: 100%;
+		    }
+		    .smartphone_news form input{
+		      height: 30px;
+		      }
+		      .smartphone_news form input.input_news{
+		      	float: right;
+		        font-family: verdana;
+		        font-size:12px; 
+		        width: 77%;
+		        color: #414042;
+		        background: #dfe0e0;
+		        text-align: center;
+		        }
+		        .smartphone_news form input.submit_news{
+		          float: right;
+		          height: 30px;
+		          width: 71px;
+		          cursor: pointer;
+		          outline: none;
+		          padding: 0;
+		          background: url('/images/suscrb_cel.jpg') no-repeat left top;
+		          }
+		          .footer_news form input.submit_news:hover{
+		            background-position: 0 -30px ;
+		            }
+
+.block_home img{
+    width: 100%;
+    margin-bottom: 3px;
+    float: none;
+    }
+.block_text{
+    float: none;
+    width: 100%;
+    }
+.submenu{
+	display: none;
+	}
+  .content_text h1{
+    font-size: 22px;
+    }
+  .content_text p{
+    font-size: 14px;
+    line-height: 18px;
+    }
+.content_text{
+  width: 90%;
+  margin: 0 auto;
+  }
+.memoria{
+  width: 100%;
+  float: none;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+  }
+  .memoria img{
+   	width: 60%;
+    }
+.rse_instituciones{
+  width: 100%;
+  float: none;
+  }
+  .rse_instituciones h4{
+    font-size: 16px;
+    line-height: 16px;
+	}
+.rse_logos a img.logo_gr{
+	width: 18%;
+	}
+.rse_logos a img{
+	width: 27%;
+	margin-right: 6%;
+	}
+.orange{
+	padding: 30px 0 20px 0;
+	}
+.logos_politica{
+	width: 65%;
+	}
+.medicos_unac{
+	display: inline;
+	}
+.medicos_tresc{
+	display: none;
+	}
+.medicos_dosc{
+	display: none;
+	}
+.plantilla_medicos{
+	width: 94%;
+	margin-left:3%; 
+	margin-right: 3%;
+	}
+	.plantilla_medicos ul {
+		margin-bottom: 20px;
+	}
+	.plantilla_medicos ul li,
+	.plantilla_medicos ul li.especialidad{
+		font-size: 15px;
+		}
+		.plantilla_medicos ul li{
+			padding-bottom: 4px;
+			}
+.cd-tabs-navigation a {
+  padding: 8px 4.9px;
+  font-size: 10px;
+	}
+.cd-tabs nav.tabs_clinicas{
+	width: 100%;
+	}
+.cd-tabs-navigation li {
+	margin: 0 1%;
+	}
+.cd-tabs{
+	margin-top: 5px;
+	}
+.clinica_nombre{
+  width: 95%;
+  float: none;
+  margin: 0 2.5%;
+  }
+  .clinica_nombre p{
+  	margin-bottom: 6%;
+  	}
+    .clinica_horarios h2,
+    .clinica_especialidades h2{
+    	margin-bottom: 10px;
+    	}
+.clinica_horarios{
+  width: 95%;
+  float: none;
+  margin: 0 2.5%;
+  }
+.clinica_especialidades{
+  width: 95%;
+  float: none;
+  margin: 6% 2.5% 4% 2.5%;
+  }
+   .clinica_especialidades .google_map iframe{
+      width: 100%;
+      height: 200px;
+      margin: 10px 0;
+     }
+.emergencias_map iframe{
+  height: 300px;
+  }
+ ul.emergencias{
+  margin:25px 0 15px 0;
+  }
+  .cd-tabs nav.tabs_mes_mes{
+    width: 80% !important;
+    }
+  .cd-tabs nav.tabs_mes_mes ul li a{
+    margin: 0 2%;
+    font-size: 12px !important;
+    padding: 6px 4px;
+    }
+  .cd-tabs nav.tabs_mes_mes ul li.li_trimestre{
+    margin-left: 30%; 
+    margin-top: 2%;
+    }
+ .cd-tabs nav.tabs_beneficios {
+ 	width: 100%;
+ 	}
+.cd-tabs-navigation li.beneficios_first{
+	margin-left: 11% !important;
+	}
+.cd-tabs-navigation li.beneficios_secondline{
+	margin-left: 7% !important;
+	}
+.cd-tabs-navigation li.beneficios {
+	margin: 1.5% 1%;
+	}
+.cd-tabs-navigation li.beneficios a{
+	font-size: 13px;
+	padding: 8px 4px;
+	}
+.beneficio_img{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 5px;
+    float: none;
+    }
+  .beneficio_text{
+    width: 100%;
+    float: none;
+    }
+p.nota{
+  font-size: 10px;
+  line-height: 13px;
+  }
+ table.table_fonasa{
+  width: 100%;
+  }
+  table.table_fonasa td{
+    width: 50%;
+    }
+form.forms_info{
+  width: 100%;
+  }
+.error p{
+  color: red;
+  font-size:11px; 
+  margin-top: -70px !important;
+  }
+ .block_noticias{
+  float: none;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 360px;
+  margin-bottom: 25px;
+  }
+ .block_entrevistas{
+  float: none;
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+  height: 250px;
+  margin-bottom: 10px;
+  }
+  .block_noticias p,
+  .block_entrevistas p{
+    margin-bottom: 15px;
+    }
+  .block_noticias a.btn {
+    left: 40%;
+    position: relative;
+    }
+.contacto_datos{
+  float: none;
+  width: 100%;
+  }
+.contacto_form{
+  width: 100%;
+  float: none;
+  margin-top: 25px;
+  } 
+  .contacto_form form{
+    width: 95%;
+    }
+	
+	form.forms_info .varioscheck{
+	width: 100%;
+	float:none;
+    }
+      .content_text img{
+      width: 100%;;
+      }
+.bt-header{
+  font-size: 9px;
+  margin-right: 0;
+  margin-bottom: 15px;
+  margin-top:0;
+}

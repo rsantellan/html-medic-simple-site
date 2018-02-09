@@ -1,0 +1,28 @@
+a {
+	font-family: Verdana;
+	color: Red;
+	font-size: 12pt;
+	text-decoration: none;
+}
+
+.sampleStyle1 {
+	font-family: Tahoma, Arial;
+	color: #078d64;
+	font-size: 11pt;
+	text-decoration: none;
+	border: dashed 1pt #98f4cd;
+}
+
+.sampleStyle2 {
+	font-family: Verdana;
+	color: #800853;
+	background-color: lightyellow;
+	font-size: 16pt;
+}
+
+.sampleStyle3 {
+	font-family: Trebuchet MS, Tahoma;
+	color: #a51105;
+	padding: 10px;
+	font-size: 12pt;
+}	

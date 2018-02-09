@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* Global Content Formatting and Styles */
+
+/* css reset
+================================================== */
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	text-decoration: none;
+	list-style: none;
+}
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.clear {
+	clear: both;
+	}
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14px;
+	/*color: #FFF;*/
+	min-height: 100%;
+}
+html {
+	overflow-y: scroll;
+}
+img, video {
+  	height: auto;
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+.wrapper, .header, .content, .videos {
+	margin: 0 auto;
+}
+

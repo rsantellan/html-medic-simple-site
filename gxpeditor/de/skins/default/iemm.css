@@ -1,0 +1,476 @@
+
+.tabOn
+{
+	font-family: Arial;
+	font-size: 12px;
+	width: 74px;
+	height: 20px;
+	text-align: center;
+	background-image: url(tab.active.png);
+	background-repeat: no-repeat;
+	padding-top: 3px;
+	margin-right: 2px;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.tabOff
+{
+	font-family: Arial;
+	font-size: 12px;
+	width: 70px;
+	height: 20px;
+	text-align: center;
+	background-image: url(tab.png);
+	background-repeat: no-repeat;
+	padding-top: 3px;
+	margin-right: 2px;
+	cursor: pointer;
+	z-index: 100;
+}
+
+.imageTabOn
+{
+	position: absolute;
+	left: 10px;
+	top: 15px;
+}
+
+.imageTabOff
+{
+	position: absolute;
+	left: 10px;
+	top: 14px;
+}
+
+.flashTabOn
+{
+	position: absolute;
+	left: 85px;
+	top: 15px;
+}
+
+.flashTabOff
+{
+	position: absolute;
+	left: 85px;
+	top: 14px;
+}
+
+.mediaTabOn
+{
+	position: absolute;
+	left: 157px;
+	top: 15px;
+}
+
+.mediaTabOff
+{
+	position: absolute;
+	left: 157px;
+	top: 14px;
+}
+
+.box
+{
+	width: 630px;
+	height: 450px;
+	background-color: #FCFCFE;
+	border: solid 1px #879EAC;
+	position: absolute;
+	left: 10px;
+	top: 34px;
+}
+
+.ButtonOff
+{
+	border: solid 1px #F4F4F4;
+	cursor: default;
+}
+
+.ButtonOn
+{
+	border: solid 1px darkblue;
+	background-color: #f2f6fc;
+	cursor: pointer;
+}
+
+.ButtonDisabled
+{
+	filter: alpha(opacity=30);
+	-moz-opacity: 0.30;
+}
+
+.Folder
+{
+	color: black;
+	text-decoration: none;
+}
+
+.Folder:hover
+{
+	color: blue;
+	text-decoration: underline;
+}
+
+.Input
+{
+	position: absolute;
+	left: 130px;
+	top: 150px;
+	width: 400px;
+	height: 100px;
+	background-color: #ECE9D8;
+	z-index: 2000;
+	border: solid 1px gray;
+	font-family:  Arial;
+	font-size: 12px;
+	display: none;
+}
+
+.InputText
+{
+	width: 81%;
+	height: 70%;
+	padding: 10px;
+}
+
+.InputOK
+{
+	position: absolute;
+	left: 337px;
+	top: 10px;
+	font-family: Arial;
+	font-size: 11px;
+	width: 55px;
+}
+
+.InputCancel
+{
+	position: absolute;
+	left: 337px;
+	top: 35px;
+	font-family: Arial;
+	font-size: 11px;
+	width: 55px;
+}
+
+.InputBox
+{
+	position: absolute;
+	left: 10px;
+	top: 65px;
+	font-family: Arial;
+	font-size: 12px;
+	width: 380px;
+}
+
+.FolderBox
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	padding: 3px 0px 0px 5px;
+	background-color: gray;
+	margin: 14px 0px -12px 15px;
+	height: 18px;
+	width: 260;
+}
+
+.ThumbTD
+{
+	width: 33%;
+	height: 65px;
+}
+
+.ThumbDiv
+{
+	width: 60px;
+	height: 60px;
+	border: solid 1px #ECE9D8;
+	margin: 7px 5px 5px 9px;
+	cursor: pointer;
+}
+
+.ThumbA
+{
+	color: black;
+	text-decoration: none;
+}
+
+.ThumbA:hover
+{
+	text-decoration: underline;
+}
+
+.PreviewBox
+{
+	position: absolute;
+	left: 275px;
+	top: 53px;
+	font-family: Arial;
+	font-size: 11px;
+	height: 140px;
+	border: solid 1px gray;
+	margin: 15px;
+	overflow: auto;
+	background-color: white;
+	padding: 10px;
+	width: 310px;
+}
+
+.ImagePropWin
+{
+	position: absolute;
+	left: 275px;
+	border: solid 1px gray;
+	margin: 15px;
+	overflow: auto;
+	background-color: white;
+	padding: 5px;
+	top: 205;
+	height: 188;
+	width: 310;
+}
+
+.ImageInsert
+{
+	font-family: Arial;
+	font-size: 11px;
+	position: absolute;
+	top: 418;
+	left: 455;
+}
+
+.ImageCancel
+{
+	font-family: Arial;
+	font-size: 11px;
+	position: absolute;
+	top: 418;
+	left: 552;
+}
+
+/* Added for the file manager */
+
+.linkTabOn
+{
+	position: absolute;
+	left: 10px;
+	top: 15px;
+}
+
+.linkTabOff
+{
+	position: absolute;
+	left: 10px;
+	top: 14px;
+}
+
+.emailTabOn
+{
+	position: absolute;
+	left: 85px;
+	top: 15px;
+}
+
+.emailTabOff
+{
+	position: absolute;
+	left: 85px;
+	top: 14px;
+}
+
+.fileTabOn
+{
+	position: absolute;
+	left: 157px;
+	top: 15px;
+}
+
+.fileTabOff
+{
+	position: absolute;
+	left: 157px;
+	top: 14px;
+}
+
+.fBox
+{
+	width: 475px;
+	height: 350px;
+	background-color: #FCFCFE;
+	border: solid 1px #879EAC;
+	position: absolute;
+	left: 10px;
+	top: 34px;
+}
+
+.fFolderBox
+{
+	font-family: Arial;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	padding: 3px 0px 0px 5px;
+	background-color: gray;
+	margin: 14px 0px -12px 15px;
+	height: 18px;
+	width: 225;
+}
+
+.LinkBox
+{
+	position: absolute;
+	left: 250px;
+	top: 75px;
+	font-family: Arial;
+	font-size: 11px;
+	height: 225px;
+	border: solid 1px gray;
+	overflow: auto;
+	background-color: white;
+	padding: 5px 10px 10px 10px;
+	width: 210px;
+}
+
+.LinkInsert
+{
+	font-family: Arial;
+	font-size: 11px;
+	position: absolute;
+	top: 310;
+	left: 250;
+}
+
+.LinkRemove
+{
+	font-family: Arial;
+	font-size: 11px;
+	position: absolute;
+	top: 310;
+	left: 325;
+	width: 80;
+}
+
+.LinkCancel
+{
+	font-family: Arial;
+	font-size: 11px;
+	position: absolute;
+	top: 310;
+	left: 407;
+}
+
+.LinkList
+{
+	width:225px;
+	height:205px;
+	border: solid 1px gray;
+	margin: 15px;
+	overflow: auto;
+	background-color: white;
+}
+
+.LInput
+{
+	position: absolute;
+	left: 60px;
+	top: 150px;
+	width: 400px;
+	height: 100px;
+	background-color: #ECE9D8;
+	z-index: 2000;
+	border: solid 1px gray;
+	font-family:  Arial;
+	font-size: 12px;
+	display: none;
+}
+
+.PopInfo
+{
+	border: solid 1px #000000;
+	background-color: #FFFFEE;
+	padding:5px;
+	font-family: Arial;
+	font-size: 11px;
+	margin: 15px;
+}
+
+.EmailBox
+{
+	position: absolute;
+	left: 15px;
+	top: 65px;
+	font-family: Arial;
+	font-size: 11px;
+	height: 185px;
+	overflow: auto;
+	padding: 5px 10px 10px 10px;
+	width: 443px;
+}
+
+.box
+{
+	width: 322px;
+	height: 410px;
+}
+.FolderBox
+{
+	display: none; 
+}
+.PreviewBox
+{
+	left: -10px;
+	top: 10px; 
+}
+.ImagePropWin
+{
+	left: -10px;
+	top: 165;
+}
+.ImageInsert
+{
+	top: 378;
+	left: 165;
+}
+.ImageCancel
+{
+	top: 378;
+	left: 262;
+}
+.fBox
+{
+	width: 360px;
+	height: 275px;
+}
+.LinkBox
+{
+	left: 6px;
+	top: 6px;
+	border: solid 0px gray;
+}
+.LinkInsert
+{
+	top: 241;
+	left: 6;
+}
+.LinkRemove
+{
+	top: 241;
+	left: 81;
+}
+.LinkCancel
+{
+	top: 241;
+	left: 163;
+}
+.LinkList
+{
+	display: none;
+}
+div#currDir, div#list, div#ilist, div#extImg, iframe#iFrm
+{
+	display:none;
+}

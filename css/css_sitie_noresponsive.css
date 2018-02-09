@@ -1,0 +1,2469 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:12px;
+  font-weight:normal;
+}
+article {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+a img {
+  border-width:0;
+}
+.left {
+  float:left !important;
+}
+.right {
+  float:right !important;
+}
+h1 {
+  font-size:28px;
+}
+h2 {
+  font-size:16px;
+}
+h3 {
+  font-size:20px;
+}
+h4 {
+  font-size:24px;
+}
+h5 {
+  font-size:18px;
+}
+h6 {
+  font-size:22px;
+}
+button{
+  cursor: pointer;
+}
+/*
+===============================
+			HEADER
+===============================
+*/
+header {
+  background: rgb(244,244,244); /* Old browsers */
+
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y0ZjRmNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlZWVlZWUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+
+  background: -moz-linear-gradient(top,  rgba(244,244,244,1) 0%, rgba(238,238,238,1) 100%); /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(244,244,244,1)), color-stop(100%,rgba(238,238,238,1))); /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top,  rgba(244,244,244,1) 0%,rgba(238,238,238,1) 100%); /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top,  rgba(244,244,244,1) 0%,rgba(238,238,238,1) 100%); /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top,  rgba(244,244,244,1) 0%,rgba(238,238,238,1) 100%); /* IE10+ */
+
+  background: linear-gradient(top,  rgba(244,244,244,1) 0%,rgba(238,238,238,1) 100%); /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', endColorstr='#eeeeee',GradientType=0 ); /* IE6-8 */
+
+
+  min-height: 134px;
+  width: 100%;
+  float:left;
+}
+header .header {
+  min-height: 80px;
+  margin: 0 auto;
+  width:980px;
+}
+header .header .advertising {
+  margin: 0 auto;
+  padding-top: 10px;
+  position: relative;
+  width: 980px;
+}
+header .header .advertising div a img {
+  border-radius: 0 25px 25px 25px;
+}
+.log {
+  background: url(/images/site/line.png) repeat-x scroll center top transparent;
+  height: 48px;
+  margin: 4px auto 0;
+  width: 980px;
+}
+.log a.logo {
+  background: url(/images/site/logo-restauranOK.png) no-repeat scroll center center transparent;
+  float: left;
+  height: 70px;
+  padding-top: 4px;
+  width: 251px;
+  cursor:pointer;
+}
+.log a.logo:hover {
+  background:url(/images/site/logo-restauran-hoverOK.png) no-repeat scroll center center transparent;
+  float: left;
+  cursor:pointer;
+  height: 70px;
+  padding-top: 4px;
+  width: 251px;
+}
+.login {
+  float:right;
+}
+.login ul {
+  float: right;
+  margin: 10px 0;
+  padding: 0;
+}
+.login ul li {
+  display: inline;
+  padding: 13px 35px 10px 22px;
+}
+.login ul li a {
+  text-decoration:none;
+  font-family: 'MavenProRegular';
+  color:#333333;
+}
+.login ul li.registrarse {
+  padding: 13px 13px 10px;
+}
+.login ul li.registrarse a {
+  color:#ff6633;
+  font-family: 'MavenProRegular';
+}
+.login ul li.ingresar {
+  background:url(/images/site/ingresar.png) no-repeat;
+}
+.login ul li.lenguaje {
+  background:url(/images/site/idiomas.png) no-repeat;
+  padding: 13px 15px 10px 25px;
+}
+.login ul li.lenguaje a img {
+  float:none;
+  padding: 0 5px;
+}
+.logged {
+  float:right;
+}
+.logged ul {
+  float: right;
+  margin: 10px 0;
+  padding: 0;
+}
+.logged ul li {
+  display: inline;
+  padding: 13px 35px 10px 22px;
+}
+.logged ul li.nombre-logued {
+  padding: 13px 13px 10px;
+}
+.logged ul li.nombre-logued a {
+  color: #FF6633;
+  font-family: 'MavenProRegular';
+}
+.logged ul li a {
+  color: #333333;
+  font-family: 'MavenProRegular';
+  text-decoration: none;
+}
+.logged ul li a span {
+  color: #000;
+  font-family: 'MavenProRegular';
+  text-decoration: none;
+}
+.logged ul li.salir {
+  background: url("/images/site/salir.png") no-repeat scroll 0 0 transparent;
+}
+.logged ul li.lenguaje {
+  background:url(/images/site/idiomas.png) no-repeat;
+  padding: 13px 15px 10px 25px;
+}
+.logged ul li.lenguaje a img {
+  float:none;
+  padding: 0 5px;
+}
+#content {
+  width:520px;
+  min-height:500px;
+}
+a.signin {
+  position:relative;
+  margin-left:3px;
+}
+#small_signup {
+  display:inline;
+  float:none;
+  line-height:23px;
+  margin:25px 0 0;
+  width:170px;
+}
+#signin_menu {
+  background: url("/images/site/login-dropdown.png") no-repeat scroll 0 0 transparent;
+  border: 0 none;
+  display: none;
+  font-family: 'MavenProRegular';
+  height: 215px;
+  margin-left: 566px;
+  margin-top: 3px;
+  position: absolute;
+  text-align: left;
+  width: 255px;
+  z-index: 100;
+}
+#signin_menu input[type=text], #signin_menu input[type=password] {
+  display:block;
+  -moz-border-radius:4px;
+  -webkit-border-radius:4px;
+  border:1px solid #ACE;
+  font-size:13px;
+  margin:0 0 5px;
+  padding:5px;
+  width:222px;
+  height: 22px;
+}
+#signin_menu p {
+  margin:0;
+}
+#signin_menu a {
+  color:#6AC;
+}
+#signin_menu label {
+  font-weight:normal;
+}
+#signin_menu label.ingresar {
+  float: right;
+  margin-bottom: 5px;
+  margin-right: 33px;
+  margin-top: 5px;
+  text-align: right;
+  width: 210px;
+}
+#signin_menu p.remember {
+  padding:0;
+}
+#signin_menu p.forgot, #signin_menu p.complete {
+  clear:both;
+  margin:5px 0;
+}
+#signin_menu p a {
+  color: #F04E37 !important;
+  float: right;
+  margin-right: 20px;
+  text-align: right;
+  width: 210px;
+}
+#signin_submit {
+  background: url("/images/site/boton-ingresar.png") no-repeat scroll center center transparent;
+  border: 0 none;
+  color: #FFFFFF;
+  height: 32px;
+  width: 86px;
+}
+#signin_submit::-moz-focus-inner {
+  padding:0;
+  border:0;
+}
+#signin_submit:hover, #signin_submit:focus {
+  background: url(/images/site/boton-ingresar-hover.png) no-repeat scroll center center transparent;
+  border: 0 none;
+  color: #f04e37;
+  height: 32px;
+  width: 86px;
+}
+.search {
+  float:left;
+  margin-top: 5px;
+}
+.search form {
+  float: right;
+  height: 42px;
+  position: relative;
+  width: 355px;
+}
+.search #field {
+  width: 270px;
+  height: 20px;
+  background: rgb(255,255,255); /* Old browsers */
+
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlYmViZWIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+
+  background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(235,235,235,1) 100%); /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(100%,rgba(235,235,235,1))); /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(235,235,235,1) 100%); /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(235,235,235,1) 100%); /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(235,235,235,1) 100%); /* IE10+ */
+
+  background: linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(235,235,235,1) 100%); /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ebebeb',GradientType=0 ); /* IE6-8 */
+
+
+  border: 1px solid #C8C8C8;
+  border-radius: 0 10px 10px 10px;
+  padding:5px 59px 5px 12px;
+}
+.search #restaurante-search-submit {
+  background: url("/images/site/lupa.png") no-repeat scroll center center transparent;
+  border: 0 none;
+  height: 26px;
+  width: 45px;
+  position: relative;
+  top: -29px;
+  left: 295px;
+  cursor: pointer;
+  border-image: initial;
+}
+
+menu {
+  background: url("/images/site/red-line.png") repeat-x scroll center top #EEEEEE;
+  float: left;
+  height: 50px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+menu .menu {
+  height: 35px;
+  margin: 0 auto;
+  position: relative;
+  top: 26px;
+  width: 980px;
+}
+menu .menu ul {
+  display:inline;
+  padding-left: 10px;
+}
+menu .menu ul li {
+  display:inline;
+  font-size:16px;
+  padding: 20px;
+}
+menu .menu ul li.restaurante:hover {
+  background:url(/images/site/restaurante-hover.png) no-repeat center;
+}
+menu .menu ul li.restaurante:hover a {
+  color:#FFF;
+}
+menu .menu ul li.restaurante-active {
+  background:url(/images/site/restaurante-active.png) no-repeat center;
+}
+menu .menu ul li.restaurante-active a {
+  color:#FF6600;
+}
+menu .menu ul li.articulos:hover {
+  background:url(/images/site/articulos-hover.png) no-repeat center;
+}
+menu .menu ul li.articulos:hover a {
+  color:#FFF;
+}
+menu .menu ul li.articulos-active {
+  background:url(/images/site/articulos-active.png) no-repeat center;
+}
+menu .menu ul li.articulos-active a {
+  color:#FF6600;
+}
+menu .menu ul li.quienes:hover {
+  background:url(/images/site/quienes-hover.png) no-repeat center;
+}
+menu .menu ul li.quienes:hover a {
+  color:#FFF;
+}
+menu .menu ul li.quienes-active {
+  background:url(/images/site/quienes-active.png) no-repeat center;
+}
+menu .menu ul li.quienes-active a {
+  color:#FF6600;
+}
+menu .menu ul li.contacto:hover {
+  background:url(/images/site/articulos-hover.png) no-repeat center;
+}
+menu .menu ul li.contacto:hover a {
+  color:#FFF;
+}
+menu .menu ul li.contacto-active {
+  background:url(/images/site/articulos-active.png) no-repeat center;
+}
+menu .menu ul li.contacto-active a {
+  color:#FF6600;
+}
+menu .menu ul li.proveedores:hover {
+  background:url(/images/site/proveedores-hover.png) no-repeat center;
+}
+menu .menu ul li.proveedores:hover a {
+  color:#FFF;
+}
+menu .menu ul li.proveedores-active {
+  background:url(/images/site/proveedores-active.png) no-repeat center;
+}
+menu .menu ul li.proveedores-active a {
+  color:#FF6600;
+}
+menu .menu ul li a {
+  text-decoration:none;
+  color:#666666;
+  font-family: 'MavenProRegular';
+  font-size:16px;
+}
+menu .menu ul li.restaurante-now {
+  background:url(/images/site/restaurante.png) no-repeat center;
+  padding:20px;
+}
+menu .menu ul li.articulos-now {
+  background:url(/images/site/articulos-menu.png) no-repeat center;
+  padding:20px;
+}
+menu .menu ul li.articulos-now a {
+  color:#f04e37;
+}
+menu .menu .redes-sociales {
+  float: right;
+  padding-right: 20px;
+}
+/*
+===============================
+			HEADER
+===============================
+*/
+/*
+===============================
+			FOOTER
+===============================
+*/
+footer {
+  background: url("/images/site/footer.png") repeat-x scroll top center #e5e5e5;
+  float: left;
+  margin-top: 50px;
+  width: 100%;
+}
+footer .footer {
+  margin: 0 auto;
+  width: 980px;
+}
+footer .footer .top-footer {
+  height: 85px;
+  margin-top: 30px;
+  width: 980px;
+}
+footer .footer .top-footer img {
+  float:left;
+}
+footer .footer .top-footer p {
+  float: right;
+  margin-top: 40px;
+}
+footer .footer .top-footer p a {
+  font-size:16px;
+  color:#666666;
+  font-family: 'MavenProRegular';
+  text-decoration:none;
+  margin:0 15px;
+}
+footer .footer .top-footer p a.current {
+  color:#f04e37;
+}
+footer .footer .listado {
+  margin: 15px auto 0;
+  width: 765px;
+}
+footer .footer .listado .listado-top, footer .footer .listado .listado-down {
+  background: url("/images/site/line.png") repeat-x scroll center top transparent;
+  float: left;
+  width: 770px;
+}
+footer .footer .listado .listado-top div {
+  float:left;
+}
+footer .footer .listado .listado-top div img {
+  float: left;
+  margin-right: 7px;
+  position: relative;
+  top: 10px;
+}
+footer .footer .listado .listado-top div p {
+  float:left;
+}
+footer .footer .listado .listado-down dl {
+  float:left;
+}
+footer .footer .listado .listado-down dl dd a.current {
+  color:#ff6633;
+}
+footer .footer .listado .listado-down .left-down {
+  position: relative;
+  top: 1px;
+}
+footer .footer .listado .listado-down .left-down  dl {
+  margin-right:25px;
+}
+footer .footer .listado .listado-down .center-down dl {
+  margin-right: 15px;
+}
+footer .footer .listado .listado-down .center-down dl dd {
+  margin-left: 0;
+}
+footer .footer .listado .listado-down .center-down {
+  position: relative;
+  top: 1px;
+  float: left;
+  padding-left:15px;
+}
+footer .footer .listado .listado-down .right-down {
+  position: relative;
+  top: 1px;
+  float:left !important;
+}
+footer .footer .listado .listado-down  .left-down dl dd {
+  margin-left:0px;
+}
+footer .footer .listado .listado-down  .right-down dl dd {
+  margin-left:15px;
+}
+footer .footer .listado .listado-down dl dd a {
+  text-decoration:none;
+  color:#666666;
+}
+footer .copy {
+  width:980px;
+  margin:0 auto;
+  color:#FFF;
+  font-size:13px;
+  height:38px;
+}
+footer .copy p {
+  margin-bottom:0px;
+}
+footer .copy a {
+  text-decoration:none;
+  color:#FFF;
+}
+.copyright {
+  background: url("/images/site/footer-copy.png") repeat-x scroll top center transparent;
+}
+/*
+===============================
+			FOOTER
+===============================
+*/
+/*
+===============================
+			CONTENT
+===============================
+*/
+.content {
+  width:980px;
+  margin:0 auto;
+}
+.col-left {
+  float: left;
+  width: 700px;
+  padding-top:10px;
+}
+.col-right {
+  float:right;
+  width:250px;
+  padding-top:10px;
+}
+.col-right .ads div a img{
+  border-radius: 0 25px 25px 25px;
+}
+/*
+=======
+ home
+=======
+/*
+/*box de los menu*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .resturant-box {
+    background: url("/images/site/restaurante-box.png") no-repeat scroll center center transparent;
+    float: left;
+    height: 86px;
+    margin: 0 auto;
+    padding: 0 3px !important;
+    position: relative;
+    top: -1px;
+    width: 985px;
+    left:0;
+  }
+}
+.resturant-box {
+  background: url("/images/site/restaurante-box.png") no-repeat scroll center center transparent;
+  float: left;
+  height: 86px;
+  left: 9px;
+  margin: 0 auto;
+  position: relative;
+  top: -1px;
+  width: 985px;
+}
+.resturant-box form label {
+  padding-left: 10px;
+  padding-top: 15px;
+  float:left;
+}
+.resturant-box form label p {
+  margin:0;
+  color:#f04e37;
+  font-size:16px;
+  float:none;
+  font-family: 'MavenProBold';
+}
+.resturant-box form fieldset {
+  border:0px;
+  float:left;
+  margin-top: 0;
+  padding-top: 0;
+}
+.resturant-box form fieldset ul {
+  margin:0;
+  padding:0;
+  display: inline;
+}
+.resturant-box form fieldset ul li {
+  display: inline;
+  margin-right: 20px;
+  float:left;
+}
+.resturant-box form fieldset ul li img {
+  position:relative;
+  top:7px;
+  margin-right:5px;
+}
+.resturant-box form fieldset ul li select {
+  border: 1px solid #c7c7c7;
+  border-radius: 0 10px 10px 10px;
+  height: 27px;
+  width: 157px;
+  padding:5px;
+}
+.resturant-box form fieldset button.buscar {
+  background: rgb(246,104,92); /* Old browsers */
+
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y2Njg1YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNzg4NzkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+
+  background: -moz-linear-gradient(top,  rgba(246,104,92,1) 0%, rgba(247,136,121,1) 100%); /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,104,92,1)), color-stop(100%,rgba(247,136,121,1))); /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top,  rgba(246,104,92,1) 0%,rgba(247,136,121,1) 100%); /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top,  rgba(246,104,92,1) 0%,rgba(247,136,121,1) 100%); /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top,  rgba(246,104,92,1) 0%,rgba(247,136,121,1) 100%); /* IE10+ */
+
+  background: linear-gradient(top,  rgba(246,104,92,1) 0%,rgba(247,136,121,1) 100%); /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6685c', endColorstr='#f78879',GradientType=0 ); /* IE6-8 */
+
+  border: 0px;
+  color:#FFF;
+  font-size:12px;
+  border-radius:10px;
+  width:85px;
+  height:25px;
+  cursor:pointer;
+}
+.resturant-box form fieldset button.buscar:hover {
+  background:#a9a9a9;
+  border: 0px;
+  color:#FFF;
+  font-size:12px;
+  border-radius:10px;
+  width:85px;
+  height:25px;
+  cursor:pointer;
+}
+.articulos-box {
+  float: left;
+  margin: 0 auto 0 8px;
+  padding: 0 10px;
+  position: relative;
+}
+.articulos-box form label {
+  padding-left: 30px;
+  padding-top: 15px;
+}
+.articulos-box form label p {
+  margin:0 0 0 0px;
+  color:#666666;
+  float: none !important;
+  font-size:12px;
+  font-family: 'MavenProBold';
+}
+.articulos-box form fieldset {
+  border:0px;
+  float:left;
+  padding-left: 10px;
+}
+.articulos-box form fieldset ul {
+  margin:0;
+  padding:0;
+  display: inline;
+}
+.articulos-box form fieldset ul li {
+  display: inline;
+  margin-right: 10px;
+}
+.articulos-box form fieldset ul li img {
+  position:relative;
+  top:7px;
+  margin-right:5px;
+}
+.resturant-box form fieldset ul li select {
+  border: 1px solid #c7c7c7;
+  border-radius: 0 10px 10px 10px;
+  height: 27px;
+  width: 157px;
+  padding:5px;
+}
+.articulos-box form fieldset button {
+  background: rgb(246,104,92); /* Old browsers */
+
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y2Njg1YyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmNzg4NzkiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+
+  background: -moz-linear-gradient(top,  rgba(246,104,92,1) 0%, rgba(247,136,121,1) 100%); /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(246,104,92,1)), color-stop(100%,rgba(247,136,121,1))); /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top,  rgba(246,104,92,1) 0%,rgba(247,136,121,1) 100%); /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top,  rgba(246,104,92,1) 0%,rgba(247,136,121,1) 100%); /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top,  rgba(246,104,92,1) 0%,rgba(247,136,121,1) 100%); /* IE10+ */
+
+  background: linear-gradient(top,  rgba(246,104,92,1) 0%,rgba(247,136,121,1) 100%); /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6685c', endColorstr='#f78879',GradientType=0 ); /* IE6-8 */
+
+
+  border: 0px;
+  color:#FFF;
+  font-size:12px;
+  border-radius:10px;
+  width:85px;
+  height:25px;
+  cursor:pointer;
+}
+.articulos-box form fieldset button:hover {
+  background:#a9a9a9;
+  border: 0px;
+  color:#FFF;
+  font-size:12px;
+  border-radius:10px;
+  width:85px;
+  height:25px;
+  cursor:pointer;
+}
+/*end box de los menu*/
+.slide {
+  float:left;
+}
+.slide #container img {
+  border-radius: 0 30px 40px 40px;
+}
+.col-left .articulos {
+  float:left;
+  border-bottom:1px solid #d6d6d6;
+}
+.col-left .articulos h1 {
+  color: #F04E37;
+  font-family: 'MavenProRegular';
+  font-weight: normal;
+  margin-bottom: 0;
+  margin-left: 25px;
+  margin-top: 30px;
+}
+.col-left .articulos p {
+  margin-left:25px;
+  font-size:14px;
+}
+.col-left .articulo {
+  float:left;
+  border-bottom:1px solid #d6d6d6;
+  width:684px
+}
+.col-left .articulo img {
+  border: 1px solid #CFCFCF;
+  border-radius: 0 25px 25px 25px;
+  float: left;
+  margin: 20px 25px 10px 0;
+}
+.col-left .articulo .publicado {
+  color: #666666;
+  float: left;
+  font-family: 'MavenProRegular';
+  margin-bottom: 0;
+  margin-top: 20px;
+  width: 500px;
+}
+.col-left .articulo h1 a {
+  color: #F04E37;
+  margin-top:10px;
+  font-family: 'MavenProRegular';
+  float:left;
+  font-size:28px;
+  margin-bottom:20px;
+  text-decoration:none;
+}
+.col-left .articulo h1 a:hover {
+  color:#cccccc;
+  float:left;
+  cursor:pointer;
+}
+.col-left .articulo p {
+  float:left;
+  margin:0px;
+  width:450px !important;
+}
+.col-left .articulo a.more {
+  color: #CCCCCC;
+  float: right;
+  font-size: 15px;
+  font-weight: bold;
+  padding-right: 15px;
+  position: relative;
+  text-decoration: none;
+}
+.col-left .articulo a.more:hover {
+  float:right;
+  color:#f04e37;
+}
+.col-left .contactenos h1 {
+  color: #F04E37;
+  font-family: 'MavenProRegular';
+  font-weight: normal;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.col-right .comentarios {
+  background: url("/images/site/comentarios.png") no-repeat scroll center center transparent;
+  float: right;
+  height: 298px;
+  margin-bottom: 20px;
+  width: 229px;
+}
+.col-right .comentarios h2 {
+  color: #FF6600;
+  float: left;
+  text-align: center;
+  width: 229px;
+  font-family: 'MavenProRegular';
+}
+.col-right .comentarios .comment {
+  float: left;
+  width: 229px;
+}
+/*
+.col-right .comentarios .comment div {
+  height:63px;
+  width:177px;
+  margin:0 auto;
+  background:url(/images/site/line.png) repeat-x bottom;
+}
+.col-right .comentarios .comment div.last {
+  height:63px;
+  width:177px;
+  margin:0 auto;
+  background: none !important;
+}
+.col-right .comentarios .comment div img {
+  margin-top:10px;
+  margin-right:15px;
+  float:left;
+}
+.col-right .comentarios .comment div p {
+  color: #666666;
+  float: left;
+  height: 40px;
+  margin-bottom: 0;
+  margin-top: 7px;
+  width: 128px !important;
+}
+.col-right .comentarios .comment div p span {
+  font-size:12px;
+  text-decoration:underline;
+  font-weight:bold;
+}
+*/
+.col-right .ads div {
+  min-height: 91px;
+  width: 229px;
+  margin-bottom:10px;
+}
+.comentar .comentar-down {
+  float: left;
+  padding: 25px 0 0 20px;
+}
+.comentar .comentar-down .usr-comment {
+  border-bottom:1px solid #dadada;
+  width:650px;
+  margin-bottom:20px;
+}
+.comentar .comentar-down .usr-comment img {
+  border-radius: 10px 10px 10px 10px;
+  float:left;
+  margin-right:20px;
+}
+.comentar .comentar-down .usr-comment div {
+  border-bottom: 1px solid #DADADA;
+  float: left;
+  width: 564px;
+}
+.comentar .comentar-down .usr-comment p.nombre {
+  color:#c82f00;
+}
+.comentar .comentar-down .usr-comment .the-comment {
+  border:0;
+}
+.comentar .comentar-down .usr-comment .the-comment p {
+  float:left;
+  font-size:13px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.comentar .comentar-down .usr-comentar {
+  border-bottom:1px solid #dadada;
+  width:650px;
+  margin-bottom:20px;
+}
+.comentar .comentar-down .usr-comentar img {
+  border-radius: 10px 10px 10px 10px;
+  float:left;
+  margin-right:20px;
+}
+.comentar .comentar-down .usr-comentar div {
+  border-bottom: 1px solid #DADADA;
+  float: left;
+  width: 564px;
+}
+.comentar .comentar-down .usr-comentar p.nombre {
+  color:#c82f00;
+}
+.comentar .comentar-down .usr-comentar .the-comment {
+  border:0;
+}
+.comentar .comentar-down .usr-comentar .the-comment p {
+  float:left;
+  font-size:13px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+.comentar .comentar-down .usr-comentar .the-comment textarea {
+  height: 80px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  max-width: 562px;
+  min-width: 562px;
+}
+.comentar .comentar-down .usr-comentar button {
+  background: url("/images/site/button-comentar.png") no-repeat scroll center center transparent;
+  border: 0 none;
+  color: #FFFFFF;
+  font-family: 'MavenProRegular';
+  font-size: 12px;
+  height: 23px;
+  margin-bottom: 10px;
+  width: 90px;
+  padding-bottom: 2px;
+}
+.comentar .comentar-down .usr-comentar button:hover {
+  background: url(/images/site/hover-button-comentar.png) center center no-repeat scroll;
+}
+/*
+=======
+ home
+=======
+*/
+/*
+==========
+ articulo
+==========
+*/
+.articulo-comida {
+}
+.articulo-comida h3 {
+  background: url("/images/site/icono-articulo.png") no-repeat scroll left center transparent;
+  color: #666666;
+  font-weight: normal;
+  padding-left: 20px;
+  margin-bottom:0px;
+  font-size: 14px;
+}
+.col-left .articulo-comida h1 {
+  color: #F04E37;
+  font-family: 'MavenProRegular';
+  font-weight: normal;
+  margin-top: 5px;
+  font-size: 32px !important;
+}
+.articulo-comida p {
+  font-size:14px;
+  color:#000000;
+  width:685px;
+  float: none;
+}
+.articulo-comida .top {
+  background: url("/images/site/top-publicado.png") no-repeat scroll center center transparent;
+  height: 37px;
+  width: 717px;
+}
+.articulo-comida .top p {
+  margin-top: 10px;
+  width: auto !important;
+}
+.articulo-comida .top p.left {
+  padding-left:20px;
+}
+.articulo-comida .top p.right {
+  padding-right:20px;
+}
+.article {
+  float:left;
+  margin-top:30px;
+}
+.article img {
+  margin:10px 20px 20px 0;
+  float:left;
+  border-radius: 0 25px 25px 25px;
+}
+article p {
+  float: left;
+  width: auto !important;
+}
+.recomendar {
+  background: url("/images/site/recomendar.png") no-repeat scroll center center transparent;
+  float: left;
+  height: 39px;
+  width: 718px;
+}
+.recomendar .mail {
+  float: left;
+  height: 14px;
+  padding: 12px 25px;
+  cursor:pointer;
+}
+.recomendar .facebook {
+  float: left;
+  height: 19px;
+  padding: 10px 15px 10px 20px;
+  cursor:pointer;
+}
+.recomendar .twitter {
+  float: left;
+  height: 19px;
+  padding: 10px 20px 10px 15px;
+  cursor:pointer;
+}
+.comentar {
+  float: left;
+  padding-left: 15px;
+  padding-top: 30px;
+}
+.comentar .comentar-top {
+  background: url("/images/site/comentar.png") no-repeat scroll center center transparent;
+  float: left;
+  height: 60px;
+  width: 683px;
+}
+.comentar .comentar-top p {
+  background: url("/images/site/icono-comentar.png") no-repeat scroll left center transparent;
+  font-family: 'MavenProRegular';
+  font-size: 22px;
+  margin: 17px;
+  padding-left: 35px;
+  color:#333333 !important;
+}
+.comentar .comentar-top button {
+  background: url("/images/site/comentar-btn.png") no-repeat scroll center center transparent;
+  border: 0 none;
+  color: #FFFFFF;
+  font-family: 'MavenProRegular';
+  font-size: 16px;
+  height: 30px;
+  margin-right: 45px;
+  margin-top: 15px;
+  width: 122px;
+}
+.comentar .comentar-top button:hover {
+  background:url(/images/site/comentar-btn-hover.png) center center no-repeat scroll;
+}
+.comentario-facebook {
+  float: left;
+  margin-top: 25px;
+  clear: both;
+  width: 680px;
+}
+/*
+==========
+ articulo
+==========
+*/
+/*
+===================
+ BusquedaArticulos
+===================
+*/
+.paginador {
+  background: url("/images/site/paginador.png") no-repeat scroll center center transparent;
+  height: 49px;
+  width: 748px;
+  float:left;
+  margin-top:10px;
+}
+.paginador p {
+  color: #F04E37;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  margin-top: 16px;
+  padding-left: 10px;
+}
+.paginador .paginas {
+  margin-right:10px;
+  margin-top: 10px;
+}
+.paginador .paginas ul{
+  padding: 0;
+  margin: 0;
+}
+.paginador .paginas ul li {
+  display: inline;
+  float: left;
+  margin: 5px;
+}
+.paginador .paginas ul li a {
+  color: #333333;
+  float: left;
+  height: 19px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 19px;
+}
+.paginador .paginas ul li a.current {
+  background:url(/images/site/paginas.png) no-repeat center center;
+}
+.paginador .paginas ul li a:hover {
+  background:url(/images/site/paginas.png) no-repeat center center;
+}
+/*
+===================
+ BusquedaArticulos
+===================
+*/
+/*
+=====================
+ BusquedaResturantes
+=====================
+*/
+p.resultados {
+  color: #F04E37;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 14px;
+  margin:0;
+  padding-left: 20px;
+}
+.paginador .ordenar {
+  float:left;
+}
+.paginador .ordenar p {
+  font-size:12px;
+  font-family:Arial, Helvetica, sans-serif;
+  color:#333333;
+}
+.paginador .ordenar form {
+  background: none repeat scroll 0 0 transparent;
+  border: 0 none;
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.resultados-resturant {
+  float: left;
+  width: 755px;
+}
+.resultados-resturant .resultados {
+  border-bottom: 1px solid #E1E1E1;
+  float: left;
+  height: 222px;
+  margin: 10px 10px 0 0;
+  width: 241px;
+}
+.resultados-resturant .resultados img {
+  border-radius: 0 25px 25px 25px;
+  float: left;
+  margin-bottom:10px;
+}
+.resultados-resturant .resultados p {
+  width:241px !important;
+  margin:0;
+}
+.resultados-resturant .resultados p.nombre {
+  font-size:15px;
+  font-family: 'MavenProRegular';
+}
+.resultados-resturant .resultados p.lugar {
+  font-size:13px;
+  font-family: 'MavenProRegular';
+}
+.resultados-resturant .resultados p.direccion {
+  font-size:12px;
+  font-family: 'MavenProRegular';
+  color:#666666;
+  min-height: 28px;
+}
+.resultados-resturant .resultados p.tipo {
+  font-size:12px;
+  font-family: 'MavenProRegular';
+  color:#666666;
+  min-height: 28px;
+}
+.resultados-resturant .resultados .bottom {
+  float: left;
+  margin-top: 10px;
+  width: 241px;
+}
+.resultados-resturant .resultados .bottom img {
+  border-radius: 0 0 0 0;
+  margin: 0;
+  float:left;
+}
+.resultados-resturant .resultados .bottom .me-gusta {
+  float:right;
+}
+.resultados-resturant .resultados .bottom .me-gusta p {
+  float: right;
+  margin-left: 10px;
+  width: auto !important;
+  color: #555555;
+}
+/*
+=====================
+ BusquedaResturantes
+=====================
+*/
+/*
+========
+ Carta
+========
+*/
+.carta {
+  background: rgb(233,233,233); /* Old browsers */
+
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U5ZTllOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEyJSIgc3RvcC1jb2xvcj0iI2Y1ZjVmNSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEyJSIgc3RvcC1jb2xvcj0iI2U4ZThlOCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNlOGU4ZTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+
+  background: -moz-linear-gradient(top,  rgba(233,233,233,1) 0%, rgba(245,245,245,1) 63px, rgba(232,232,232,1) 63px, rgba(232,232,232,1) 100%); /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(233,233,233,1)), color-stop(63px,rgba(245,245,245,1)), color-stop(62px,rgba(232,232,232,1)), color-stop(100%,rgba(232,232,232,1))); /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top,  rgba(233,233,233,1) 0%,rgba(245,245,245,1) 63px,rgba(232,232,232,1) 63px,rgba(232,232,232,1) 100%); /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top,  rgba(233,233,233,1) 0%,rgba(245,245,245,1) 63px,rgba(232,232,232,1) 63px,rgba(232,232,232,1) 100%); /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top,  rgba(233,233,233,1) 0%,rgba(245,245,245,1) 63px,rgba(232,232,232,1) 63px,rgba(232,232,232,1) 100%); /* IE10+ */
+
+  background: linear-gradient(top,  rgba(233,233,233,1) 0%,rgba(245,245,245,1) 63px,rgba(232,232,232,1) 63px,rgba(232,232,232,1) 100%); /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', endColorstr='#e8e8e8',GradientType=0 ); /* IE6-8 */
+
+  border: 1px solid #CFCFCF;
+  border-radius: 0 27px 27px 27px;  width: 653px;
+  float:left;
+}
+.carta h4 {
+  border-bottom: 1px solid #CCCCCC;
+  color: #F04E37;
+  font-family: 'MavenProRegular';
+  font-weight: normal;
+  margin: 19px 0 0 0;
+  text-align: center;
+  padding-bottom:19px;
+}
+.carta div {
+  border-bottom: 1px solid #CCCCCC;
+  float: left;
+  padding-bottom: 25px;
+}
+.carta div h5 {
+  color: #F04E37;
+  float: left;
+  font-weight: normal;
+  margin-left: 35px;
+  width: 600px;
+}
+.carta div p {
+  float: left;
+  font-size: 14px;
+  margin-left: 35px;
+  width: 410px;
+}
+.carta div span {
+  float: left;
+  font-size: 14px;
+  margin-left: 35px;
+  text-align: right;
+  width: 125px;
+}
+.carta div.entrada h5 {
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+.carta div.entrada p {
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+.carta div.entrada span {
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+.carta div.principal h5 {
+  margin-bottom: 0;
+  margin-top: 30px;
+}
+.carta div.principal p {
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+.carta div.principal span {
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+.carta div.postre h5 {
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+.carta div.postre p {
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+.carta div.postre span {
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+.carta div.vino h5 {
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+.carta div.vino p {
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+.carta div.vino span {
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+.carta p.legal {
+  color: #F04E37;
+  float: left;
+  font-family: Arial,Helvetica,sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  margin-left: 35px;
+}
+/*
+========
+ Carta
+========
+*/
+/*
+=============
+ Registrarse
+=============
+*/
+.registro {
+  background: url("/images/site/registro.png") no-repeat scroll center center transparent;
+  float: left;
+  height: 563px;
+  width: 560px;
+}
+.registro p {
+  font-size:14px;
+  font-weight:normal;
+}
+.registro h4 {
+  color: #F04E37;
+  font-family: 'MavenProRegular';
+  font-weight: normal;
+  margin: 19px auto;
+  text-align: center;
+}
+.registro-facebook {
+  float: left;
+  margin: 39px 98px;
+}
+.registro .registro-facebook ul {
+  padding: 0px;
+  margin:0;
+}
+.registro .registro-facebook ul li {
+  display:inline;
+  margin:5px;
+}
+.registro .registro-facebook ul li p {
+  float: left;
+  margin: 4px 0;
+}
+.registro .registro-formulario {
+  float: left;
+  margin: 0 0 0 98px;
+}
+.registro .registro-formulario p.red {
+  color:#bf1800;
+}
+.registro .registro-formulario form p {
+  margin-top:18px;
+  margin-bottom:10px;
+}
+.registro-formulario form {
+  width:364px;
+}
+.registro .registro-formulario form input {
+  border: 1px solid #B7B7B7;
+  border-radius: 0 20px 20px 20px;
+  height: 32px;
+  width: 362px;
+}
+.registro .registro-formulario form input.checkbox {
+  float: left;
+  height: auto;
+  margin-top: 25px;
+  width: auto;
+}
+.registro .registro-formulario form p.notificaciones {
+  float: left;
+  margin-left: 10px;
+  margin-top: 25px;
+  width: 300px;
+}
+.registro .registro-formulario form button.registrarse {
+  background: url("/images/site/registro-button.png") no-repeat scroll center center transparent;
+  border: 0 none;
+  color: #FFFFFF;
+  font-size: 16px;
+  height: 31px;
+  width: 119px;
+  font-family: 'MavenProRegular';
+  float:right;
+  margin-top:25px;
+}
+.registro .registro-formulario form button.registrarse:hover {
+  background: url("/images/site/registro-button-hover.png") no-repeat scroll center center transparent;
+  border: 0 none;
+  color: #f04e37;
+  font-size: 16px;
+  height: 31px;
+  width: 119px;
+  font-family: 'MavenProRegular';
+  float:right;
+  margin-top:25px;
+}
+.registro .registro-formulario form button.cancelar {
+  background: url("/images/site/registro-button.png") no-repeat scroll center center transparent;
+  border: 0 none;
+  color: #FFFFFF;
+  font-size: 16px;
+  margin-top:25px;
+  height: 31px;
+  width: 119px;
+  font-family: 'MavenProRegular';
+  float:right;
+  margin-left:10px
+}
+.registro .registro-formulario form button.cancelar:hover {
+  background: url("/images/site/registro-button-hover.png") no-repeat scroll center center transparent;
+  border: 0 none;
+  color: #f04e37;
+  font-size: 16px;
+  margin-top:25px;
+  height: 31px;
+  width: 119px;
+  font-family: 'MavenProRegular';
+  float:right;
+  margin-left:10px
+}
+/*
+=============
+ Registrarse
+=============
+*/
+/*
+==========
+ Reserva
+==========
+*/
+.reserva {
+  background: rgb(233,233,233); /* Old browsers */
+
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2U5ZTllOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjglIiBzdG9wLWNvbG9yPSIjZjVmNWY1IiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iOCUiIHN0b3AtY29sb3I9IiNlOGU4ZTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjZThlOGU4IiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==);
+
+  background: -moz-linear-gradient(top,  rgba(233,233,233,1) 0%, rgba(245,245,245,1) 8%, rgba(232,232,232,1) 8%, rgba(232,232,232,1) 100%); /* FF3.6+ */
+
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(233,233,233,1)), color-stop(8%,rgba(245,245,245,1)), color-stop(8%,rgba(232,232,232,1)), color-stop(100%,rgba(232,232,232,1))); /* Chrome,Safari4+ */
+
+  background: -webkit-linear-gradient(top,  rgba(233,233,233,1) 0%,rgba(245,245,245,1) 8%,rgba(232,232,232,1) 8%,rgba(232,232,232,1) 100%); /* Chrome10+,Safari5.1+ */
+
+  background: -o-linear-gradient(top,  rgba(233,233,233,1) 0%,rgba(245,245,245,1) 8%,rgba(232,232,232,1) 8%,rgba(232,232,232,1) 100%); /* Opera 11.10+ */
+
+  background: -ms-linear-gradient(top,  rgba(233,233,233,1) 0%,rgba(245,245,245,1) 8%,rgba(232,232,232,1) 8%,rgba(232,232,232,1) 100%); /* IE10+ */
+
+  background: linear-gradient(top,  rgba(233,233,233,1) 0%,rgba(245,245,245,1) 8%,rgba(232,232,232,1) 8%,rgba(232,232,232,1) 100%); /* W3C */
+
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e9e9e9', endColorstr='#e8e8e8',GradientType=0 ); /* IE6-8 */
+
+  border: 1px solid #CFCFCF;
+  border-radius: 0 27px 27px 27px;
+  float: left;
+  width: 561px;
+}
+.reserva p {
+  font-size: 14px;
+  font-weight: normal;
+}
+.reserva h4 {
+  color: #F04E37;
+  font-family: 'MavenProRegular';
+  font-weight: normal;
+  margin: 19px auto;
+  text-align: center;
+}
+.reserva .comensales {
+  border-top: 1px solid #CCCCCC;
+  float: left;
+  height: 68px;
+  width: 561px;
+}
+.reserva .comensales p {
+  font-family: 'MavenProRegular';
+  font-size: 14px;
+  font-weight: normal;
+  margin-left: 120px;
+  margin-top: 28px;
+  float:left;
+}
+.reserva .comensales input {
+  border: 1px solid #B7B7B7;
+  border-radius: 0 20px 20px 20px;
+  float: left;
+  height: 30px;
+  margin-left: 15px;
+  margin-top: 20px;
+  padding-left: 10px;
+  width: 50px;
+}
+.reserva .leyenda {
+  border-top: 1px solid #CCCCCC;
+  float: left;
+  width: 561px;
+}
+.reserva .leyenda ul {
+  padding-left:105px;
+}
+.reserva .leyenda ul li {
+  display:inline;
+  font-size:14px;
+  font-family: 'MavenProRegular';
+}
+.reserva .calendario {
+  float: left;
+  padding-bottom: 50px;
+}
+.reserva .hora {
+  border-top: 1px solid #CCCCCC;
+  float: left;
+  height: 65px;
+  width: 561px;
+}
+.reserva .hora ul li {
+  display:inline;
+}
+.reserva .hora ul {
+  padding-left:175px;
+}
+.reserva .hora ul li select {
+  border: 1px solid #B7B7B7;
+  border-radius: 0 20px 20px 20px;
+  height: 30px;
+  padding: 7px;
+  margin:7px;
+  width: 60px;
+}
+.reserva .datos-contacto {
+  border-top: 1px solid #CCCCCC;
+  float: left;
+  padding: 0 98px;
+  width: 364px;
+}
+.reserva .datos-contacto input {
+  border: 1px solid #B7B7B7;
+  border-radius: 0 20px 20px 20px;
+  height: 32px;
+  padding-left: 10px;
+  width: 352px;
+}
+.reserva .datos-contacto p {
+  margin-bottom: 10px;
+  margin-top: 16px;
+}
+.reserva .datos-contacto p.titulo {
+  color:#999999;
+  font-size:16px;
+}
+.reserva .datos-contacto p.notificaciones {
+  float: left;
+  margin-left: 10px;
+  margin-top: 25px;
+  width: 300px;
+}
+.reserva .datos-contacto input.checkbox {
+  float: left;
+  height: auto;
+  margin-top: 25px;
+  width: auto;
+}
+.reserva .datos-contacto button.enviar {
+  background: url("/images/site/registro-button.png") no-repeat scroll center center transparent;
+  border: 0 none;
+  color: #FFFFFF;
+  float: right;
+  font-family: 'MavenProRegular';
+  font-size: 16px;
+  height: 31px;
+  margin: 10px 124px;
+  width: 119px;
+}
+.reserva .datos-contacto button.enviar:hover {
+  background: url("/images/site/registro-button-hover.png") no-repeat scroll center center transparent;
+  border: 0 none;
+  color: #F04E37;
+  float: right;
+  font-family: 'MavenProRegular';
+  font-size: 16px;
+  height: 31px;
+  margin: 10px 124px;
+  width: 119px;
+}
+/*
+==========
+ Reserva
+==========
+*/
+/*
+============
+ ReservaOK
+============
+*/
+.reserva-ok {
+  background: url("/images/site/reservaOK.png") no-repeat scroll center center transparent;
+  float: left;
+  height: 232px;
+  width: 560px;
+}
+.reserva-ok p {
+  margin: 0 auto;
+  position: relative;
+  top: 130px;
+  width: 440px;
+}
+/*
+============
+ ReservaOK
+============
+*/
+/*
+=======================
+ PerfilRestaurant_Pago
+=======================
+*/
+#map_canvas {
+  margin-bottom: 25px;
+}
+.col-left .resturante {
+  background: none repeat scroll 0 0 #F3F3F3;
+  border: 2px solid #CFCFCF;
+  border-radius: 0 27px 27px 27px;
+  float: left;
+  margin-top: 10px;
+  width: 684px;
+}
+.col-left .resturante .titulo {
+  float: left;
+  height: 50px;
+  width: 320px;
+  border-bottom:1px solid #cccccc;
+}
+.col-left .resturante .titulo h6 {
+  float: left;
+  font-family: 'MavenProRegular';
+  font-weight: normal;
+  margin: 13px 20px;
+}
+.col-left .resturante .ubicacion {
+  float: left;
+  height: 50px;
+  width: 230px;
+  border-bottom:1px solid #cccccc;
+  border-left:1px solid #cccccc;
+  border-right:1px solid #cccccc;
+}
+.col-left .resturante .ubicacion img {
+  float: left;
+  position: relative;
+  padding-left: 10px;
+  top: 12px;
+}
+.col-left .resturante .ubicacion p {
+  color: #6B6B6B;
+  float: left;
+  font-size: 16px;
+  padding-left: 7px;
+}
+.col-left .resturante .aprobacion {
+  float: left;
+  height: 30px;
+  padding: 10px 17px;
+  width: 95px;
+  border-bottom:1px solid #cccccc;
+}
+.col-left .resturante .aprobacion img {
+  float: left;
+  margin-right: 5px;
+}
+.col-left .resturante .aprobacion p {
+  margin: 0;
+}
+.col-left .resturante .info {
+  float:left;
+}
+.col-left .resturante .info p.direccion {
+  float:none;
+  font-size:15px;
+  color:#666666;
+  margin-bottom:0px;
+  padding-left: 20px;
+}
+.col-left .resturante .info p.tipo {
+  color: #666666;
+  float: none;
+  font-size: 15px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.col-left .resturante .informacion {
+  float: left;
+  width: 684px;
+}
+.col-left .resturante .informacion .mapa {
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 25px;
+  width: 643px;
+}
+.col-left .resturante .informacion .mapa p {
+  color: #666666;
+  float: right !important;
+  font-size: 13px;
+  line-height: 17px;
+  margin: 0 0 15px;
+  width: 310px !important;
+}
+.col-left .resturante .footer {
+  border-top: 1px solid #cccccc;
+  float: left;
+  width: 684px;
+}
+.col-left .resturante .footer .recomendar {
+  background: none repeat scroll 0 0 transparent;
+  float: left;
+  height: 20px;
+  padding: 18px 29px;
+  width: 160px;
+}
+.col-left .resturante .footer .me-gusta {
+  height: 55px;
+  width: 137px;
+  border-left: 1px solid #cccccc;
+}
+.col-left .resturante .footer .me-gusta p {
+  margin-top: 5px;
+  text-align: center;
+  width: 137px !important;
+}
+.col-left .resturante .footer .me-gusta p a {
+  color:#333333;
+  text-decoration:none;
+}
+.col-left .resturante .footer .me-gusta .like {
+  float: left;
+  padding: 0 11px;
+  width: 50px;
+}
+.col-left .resturante .footer .me-gusta .like a {
+  background: url("/images/site/me-gusta.png") no-repeat scroll center center transparent;
+  float: left;
+  height: 15px;
+  width: 15px;
+}
+.col-left .resturante .footer .me-gusta .like a:hover {
+  background: url("/images/site/me-gusta-hover.png") no-repeat scroll center center transparent;
+  float: left;
+  height: 15px;
+  width: 15px;
+}
+.col-left .resturante .footer .me-gusta .like p {
+  width:auto !important;
+  float: right;
+  margin-top:0px !important;
+}
+.col-left .resturante .footer .me-gusta .dont-like {
+  float: left;
+  padding: 0 11px;
+  width: 40px;
+}
+.col-left .resturante .footer .me-gusta .dont-like a {
+  background: url("/images/site/no-me-gusta.png") no-repeat scroll center center transparent;
+  float: left;
+  height: 15px;
+  width: 15px;
+}
+.col-left .resturante .footer .me-gusta .dont-like a:hover {
+  background: url("/images/site/no-me-gusta-hover.png") no-repeat scroll center center transparent;
+  float: left;
+  height: 15px;
+  width: 15px;
+}
+.col-left .resturante .footer .me-gusta .dont-like p {
+  width:auto !important;
+  float: right;
+  margin-top:0px !important;
+}
+.comentarios-resturant p {
+  color: #999999;
+  float: none;
+  font-size: 14px;
+  width: 685px;
+}
+.comentarios-resturant .comentar {
+  float: left;
+  padding-left: 0;
+  padding-top: 30px;
+}
+.col-right button {
+  background: url("/images/site/perfil-button.png") no-repeat scroll center center transparent;
+  border: 0 none;
+  color: #FFFFFF;
+  font-size: 20px;
+  height: 38px;
+  margin-bottom: 15px;
+  width: 250px;
+  font-family: 'MavenProRegular';
+}
+.col-right button:hover {
+  background: url("/images/site/perfil-button-hover.png") no-repeat scroll center center transparent;
+  border: 0 none;
+  color: #FFFFFF;
+  font-size: 20px;
+  height: 38px;
+  margin-bottom: 15px;
+  width: 250px;
+  font-family: 'MavenProRegular';
+}
+.col-right .datos-right {
+  background: none repeat scroll 0 0 #F3F3F3;
+  border: 2px solid #CFCFCF;
+  border-radius: 0 27px 27px 27px;
+  float: right;
+  position: relative;
+  width: 246px;
+}
+.col-right .datos-right .direccion, .col-right .datos-right .tipo, .col-right .datos-right .horario, .col-right .datos-right .telefono, .col-right .datos-right .precio, .col-right .datos-right .beneficios, .col-right .datos-right .contacto {
+  border-top: 1px solid #cccccc;
+  float: left;
+  padding: 13px;
+  width: 222px;
+}
+.col-right .datos-right :first-child {
+  border-top: none !important;
+}
+.col-right .datos-right .direccion img, .col-right .datos-right .tipo img, .col-right .datos-right .horario img, .col-right .datos-right .telefono img, .col-right .datos-right .precio img, .col-right .datos-right .beneficios img, .col-right .datos-right .contacto img {
+  float: left;
+  margin: 0 7px 0 15px;
+}
+.col-right .datos-right .direccion p, .col-right .datos-right .tipo p, .col-right .datos-right .horario p, .col-right .datos-right .telefono p, .col-right .datos-right .precio p, .col-right .datos-right .beneficios p, .col-right .datos-right .contacto p {
+  float:left;
+  width:160px !important;
+  margin:0;
+}
+.col-right .tarjetas {
+  float: left;
+  padding: 12px 15px;
+  border-bottom: 1px solid #cccccc;
+  width: 218px;
+}
+.col-right .tarjetas a {
+  margin:0 5px;
+}
+.col-right .servicios {
+  float:left;
+  padding:13px;
+}
+.col-right .servicios h2 {
+  font-weight: normal;
+  margin: 0 8px 0;
+}
+.col-right .servicios a {
+  margin:8px;
+  float:left;
+}
+.datos-right .fanpage{
+  border-top: 1px solid #cccccc;
+}
+.datos-right .fanpage h2{
+ margin-bottom: 20px;
+}
+.datos-right .fanpage img{
+  width: 65px
+}
+.datos-right .fanpage a{
+  margin: 0 10px 0 0;
+}
+.datos-right .fanpage .facebook-like{
+  float: right;
+  width: 130px;
+}
+/*
+==================
+ PerfilRestaurant
+==================
+*/
+.col-left .resturante2 {
+  background: url("/images/site/restaurante2.png") no-repeat scroll center center transparent;
+  float: left;
+  height: 185px;
+  margin-top: 10px;
+  width: 684px;
+}
+.col-left .resturante2 .titulo {
+  float: left;
+  height: 50px;
+  width: 325px;
+}
+.col-left .resturante2 .titulo h6 {
+  float: left;
+  font-family: 'MavenProRegular';
+  font-weight: normal;
+  margin: 13px 20px;
+}
+.col-left .resturante2 .ubicacion {
+  float: left;
+  height: 50px;
+  width: 230px;
+}
+.col-left .resturante2 .ubicacion img {
+  float: left;
+  position: relative;
+  padding-left: 10px;
+  top: 12px;
+}
+.col-left .resturante2 .ubicacion p {
+  color: #6B6B6B;
+  float: left;
+  font-size: 16px;
+  padding-left: 7px;
+}
+.col-left .resturante2 .aprobacion {
+  float: left;
+  height: 30px;
+  padding: 10px 17px;
+  width: 95px;
+}
+.col-left .resturante2 .aprobacion img {
+  float: left;
+  margin-right: 5px;
+}
+.col-left .resturante2 .aprobacion p {
+  margin: 0;
+}
+.col-left .resturante2 .info {
+  float: left;
+  height: 77px;
+}
+.col-left .resturante2 .info p.direccion {
+  float:none;
+  font-size:15px;
+  color:#666666;
+  margin-bottom:0px;
+  padding-left: 20px;
+}
+.col-left .resturante2 .info p.tipo {
+  color: #666666;
+  float: none;
+  font-size: 15px;
+  margin-bottom: 0;
+  margin-top: 0;
+  width:600px !important;
+  padding-left: 20px;
+}
+.col-left .resturante2 .informacion {
+  float: left;
+  height: 190px;
+  width: 684px;
+}
+.col-left .resturante2 .informacion .mapa {
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 25px;
+  width: 643px;
+}
+.col-left .resturante2 .informacion .mapa p {
+  color: #666666;
+  float: right !important;
+  font-size: 13px;
+  line-height: 17px;
+  margin: 0;
+  width: 310px !important;
+}
+.col-left .resturante2 .footer .recomendar {
+  background: none repeat scroll 0 0 transparent;
+  float: left;
+  height: 20px;
+  padding: 18px 29px;
+  width: 160px;
+}
+.col-left .resturante2 .footer .me-gusta {
+  height: 55px;
+  width: 137px;
+}
+.col-left .resturante2 .footer .me-gusta p {
+  margin-top: 5px;
+  text-align: center;
+  width: 137px !important;
+}
+.col-left .resturante2 .footer .me-gusta p a {
+  color:#333333;
+  text-decoration:none;
+}
+.col-left .resturante2 .footer .me-gusta .like {
+  float: left;
+  padding: 0 11px;
+  width: 50px;
+}
+.col-left .resturante2 .footer .me-gusta .like a {
+  background: url("/images/site/me-gusta.png") no-repeat scroll center center transparent;
+  float: left;
+  height: 15px;
+  width: 15px;
+}
+.col-left .resturante2 .footer .me-gusta .like a:hover {
+  background: url("/images/site/me-gusta-hover.png") no-repeat scroll center center transparent;
+  float: left;
+  height: 15px;
+  width: 15px;
+}
+.col-left .resturante2 .footer .me-gusta .like p {
+  width:auto !important;
+  float: right;
+  margin-top:0px !important;
+}
+.col-left .resturante2 .footer .me-gusta .dont-like {
+  float: left;
+  padding: 0 11px;
+  width: 40px;
+}
+.col-left .resturante2 .footer .me-gusta .dont-like a {
+  background: url("/images/site/no-me-gusta.png") no-repeat scroll center center transparent;
+  float: left;
+  height: 15px;
+  width: 15px;
+}
+.col-left .resturante2 .footer .me-gusta .dont-like a:hover {
+  background: url("/images/site/no-me-gusta-hover.png") no-repeat scroll center center transparent;
+  float: left;
+  height: 15px;
+  width: 15px;
+}
+.col-left .resturante2 .footer .me-gusta .dont-like p {
+  width:auto !important;
+  float: right;
+  margin-top:0px !important;
+}
+.col-right .datos-right2 {
+  background: url("/images/site/datos-right2.png") no-repeat scroll center center transparent;
+  height: 272px;
+  width: 254px;
+}
+.col-right .datos-right2 .horario, .col-right .datos-right2 .telefono, .col-right .datos-right2 .precio, .col-right .datos-right2 .beneficios, .col-right .datos-right2 .contacto {
+  padding:13px;
+  float:left;
+}
+.col-right .datos-right2 .horario img, .col-right .datos-right2 .telefono img, .col-right .datos-right2 .precio img, .col-right .datos-right2 .beneficios img, .col-right .datos-right2 .contacto img {
+  float: left;
+  margin: 0 7px 0 15px;
+}
+.col-right .datos-right2 .horario p, .col-right .datos-right2 .telefono p, .col-right .datos-right2 .precio p, .col-right .datos-right2 .beneficios p, .col-right .datos-right2 .contacto p {
+  float:left;
+  width:160px !important;
+  margin:0;
+}
+/*
+==================
+ PerfilRestaurant
+==================
+*/
+/*
+=============
+ Proveedores
+=============
+*/
+.paginador2 {
+  background: url("/images/site/paginador.png") no-repeat scroll top center transparent;
+  height: 100px;
+  width: 748px;
+  float:left;
+  margin-top:10px;
+}
+.paginador2 .ordenar img {
+  float:left;
+  padding-left:25px;
+  margin-top:8px;
+}
+.paginador2 .ordenar h2 {
+  color: #666666;
+  float: left;
+  font-weight: normal;
+  margin-left: 7px;
+}
+.paginador2 .ordenar form {
+  float: left;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+.paginador2 form select.productos {
+  width:335px;
+}
+.paginador2 .paginas {
+  margin-right: 25px;
+  margin-top: 50px;
+}
+.paginador2 .paginas ul li {
+  display: inline;
+  float: left;
+  margin: 5px;
+}
+.paginador2 .paginas ul li a {
+  color: #333333;
+  float: left;
+  height: 19px;
+  line-height: 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 19px;
+}
+.paginador2 .paginas ul li a.current {
+  background:url(/images/site/paginas.png) no-repeat center center;
+}
+.paginador2 .paginas ul li a:hover {
+  background:url(/images/site/paginas.png) no-repeat center center;
+}
+.proveedores .proveedor {
+  float:left;
+  border-top:1px solid #e8e8e8;
+}
+.proveedores .proveedor img {
+  float: left;
+  padding: 10px 23px 10px 0;
+}
+.proveedores .proveedor p.titulo {
+  float:left;
+  color:#f04e37;
+  font-size: 14px;
+}
+.proveedores .proveedor p {
+  float:left;
+  width:470px !important;
+}
+/*
+=============
+ Proveedores
+=============
+*/
+/*
+==============
+ QuienesSomos
+==============
+*/
+.col-left .phone {
+  float: left;
+  border-bottom:1px solid #e6e6e6;
+  padding: 15px;
+  width:678px;
+}
+.col-left .phone img {
+  float:left;
+}
+.col-left .phone p {
+  color: #58595B;
+  float: left;
+  font-size: 14px;
+  margin: 7px 15px;
+}
+.col-left .mail2 {
+  float: left;
+  border-bottom:1px solid #e6e6e6;
+  padding: 15px;
+  width:678px;
+}
+.col-left .mail2 img {
+  float:left;
+}
+.col-left .mail2 p {
+  color: #58595B;
+  float: left;
+  font-size: 14px;
+  margin: 7px 15px;
+}
+.col-left .descripcion {
+  float: left;
+  border-bottom:1px solid #e6e6e6;
+  padding: 15px;
+  width:678px;
+}
+.col-left .descripcion p {
+  color: #58595B;
+  float: left;
+  margin: 7px 15px;
+}
+.col-left .equipo {
+  float:left;
+}
+.col-left .equipo h4 {
+  font-weight:normal;
+  color:#f04e37;
+  padding-left:15px;
+}
+.col-left .equipo div {
+  background:#ededed;
+  border:1px solid #d2d2d2;
+  border-radius:0 20px 20px 20px;
+  float:left;
+}
+.col-left .equipo div img {
+  border-radius: 10px 10px 10px 10px;
+  float: left;
+  margin: 30px;
+}
+.col-left .equipo div h2 {
+  color: #666666;
+  float: left;
+  font-weight: normal;
+  margin-bottom: 0;
+  margin-top: 30px;
+  width: 490px;
+}
+.col-left .equipo div p {
+  color: #333333;
+  float: left;
+  margin-bottom: 25px;
+  width: 490px !important;
+}
+.col-left .equipo div.first {
+  background: url("/images/site/line.png") repeat-x scroll center bottom transparent;
+  border: 0 none;
+  border-radius: 0 0 0 0;
+}
+.col-left .equipo div.second {
+  border: 0 none;
+  border-radius: 0 0 0 0;
+}
+.col-left .equipo div.third {
+  background: url("/images/site/line.png") repeat-x scroll center top transparent;
+  border: 0 none;
+  border-radius: 0 0 0 0;
+}
+/*
+==============
+ QuienesSomos
+==============
+*/
+/*
+====================
+ RegistroRestaurant
+====================
+*/
+.col-left h2.registro {
+  background: none repeat scroll 0 0 transparent;
+  color: #F04E37;
+  float: left;
+  font-weight: normal;
+  height: auto;
+  margin-bottom: 25px;
+  margin-left: 20px;
+  width: auto;
+}
+.col-left h2.registro span {
+  color:#666666;
+  font-size:14px;
+}
+.col-left form {
+  float:left;
+  /*background: none repeat scroll 0 0 #EDEDED;
+  border: 1px solid #D2D2D2;*/
+  border-radius: 0 20px 20px 20px;
+}
+.col-left form .registro-resturante {
+  float: left;
+  padding: 50px 108px 25px;
+  width: 455px;
+}
+.col-left form .registro-resturante p {
+  margin-bottom: 10px;
+  margin-top: 16px;
+  width: 300px !important;
+  font-size:14px;
+  color:#333333;
+}
+.col-left form .registro-resturante input {
+  border: 1px solid #B7B7B7;
+  border-radius: 0 20px 20px 20px;
+  height: 32px;
+  width: 452px;
+  padding-left: 10px;
+  float:left;
+}
+.col-left form .registro-resturante button.enviar {
+  background: url("/images/site/registro-button.png") no-repeat scroll center center transparent;
+  border: 0 none;
+  color: #FFFFFF;
+  float: right;
+  font-family: 'MavenProRegular';
+  font-size: 16px;
+  height: 31px;
+  margin: 40px 0 0;
+  width: 119px;
+}
+.col-left form .registro-resturante button.enviar:hover {
+  background: url("/images/site/registro-button-hover.png") no-repeat scroll center center transparent;
+  border: 0 none;
+  color: #F04E37;
+  float: right;
+  font-family: 'MavenProRegular';
+  font-size: 16px;
+  height: 31px;
+  margin: 40px 0 0;
+  width: 119px;
+}
+/*
+====================
+ RegistroRestaurant
+====================
+*/
+/*
+===============================
+ arreglos para chrome + safari
+===============================
+*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .login ul li.lenguaje {
+    background: url(/images/site/idiomas.png) no-repeat;
+    padding: 13px 0px 10px 25px;
+    width: 126px;
+    float: right;
+    top: -8px;
+    position: relative;
+  }
+  .login ul li.ingresar {
+    background: url(/images/site/ingresar.png) no-repeat;
+    top: 4px;
+    position: relative;
+  }
+  .login ul li.lenguaje a img {
+    float:none;
+    padding: 0 5px;
+    position: relative;
+    top: -3px;
+  }
+  .login {
+    float: right;
+    height: 50px;
+  }
+  .articulos-box {
+    /*
+		background: url("/images/site/articulos-box.png") no-repeat scroll center center transparent;
+		height: 83px;    
+    padding: 0 14px !important;
+    top: -1px;
+    width: 668px;
+    */
+    float: left;
+    margin: 0 auto 0 8px;
+    position: relative;
+  }
+  .fb_edge_widget_with_comment {
+    margin-left: 0px;
+    margin-top: 0px !important;
+    position: relative;
+  }
+}
+/*
+===============================
+ arreglos para chrome + safari
+===============================
+*/
+/*arreglos para checkboxes*/
+.ui-multiselect {
+  background: none repeat scroll 0 0 #FFFFFF !important;
+  border-radius: 0 10px 10px 10px !important;
+  width: 157px !important;
+  color:#000 !important;
+}
+.ui-widget-header {
+  font-weight: normal !important;
+}
+/*arreglos para checkboxes*/
+
+/*facebook para ingresar */
+fieldset .registro-facebook {
+  float: left;
+  margin:0px;
+}
+fieldset .registro-facebook ul {
+  padding: 0px;
+  margin:0;
+}
+fieldset .registro-facebook ul li {
+  display:inline;
+  margin:5px;
+}
+fieldset .registro-facebook ul li p {
+  float: left;
+  margin: 4px 0;
+}
+/*facebook para ingresar */
+
+div.resturante .fb_edge_widget_with_comment {
+  margin-left: 12px;
+  margin-top: 17px;
+  position: relative;
+}
+
+/*arreglo*/
+.ads {
+  float: right;
+}
+#fancybox-frame{
+  overflow-x: hidden;
+}

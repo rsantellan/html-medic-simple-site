@@ -1,0 +1,90 @@
+/* Layout Div for drop down menu's such as right click context menu, table menu etc */
+.popup{
+	border: #666666 1px solid;
+	padding:1px;
+	background-color : #F9F8F7;
+	font-size: 8px;
+	font-family: Tahoma, Arial, Verdana, Sans-Serif;
+	width:197px;
+	background-image: url(skins/default/popupbg.gif);
+}
+
+.hide_popup_item{
+	display:none;
+	height:0px;
+}
+
+.colorpopupcontainer{
+	height:158px;	
+	width:157px;
+}
+	
+.colorpopup{
+        background-color : #F9F8F7;
+        border: #666666 1px solid;
+} 
+
+/* Style for text used inside drop down menu's such as right click context menu, table menu etc */
+.popuptext{
+	height: 20px;
+	cursor: pointer;
+	color:black;
+	font:8pt tahoma;
+}
+
+.popupitem_icon {
+	width: 21px;
+	height: 20px;
+	cursor: pointer;	
+}
+
+.popupitem {
+	height: 20px;
+	cursor: pointer;
+	margin: 1px;
+}
+
+.popupitem_on
+{
+	height: 20px;
+	border: #0A246A 1px solid;
+	background-color: #B6BDD2;
+	margin: 0px
+}
+
+.popupitem_off
+{
+	height: 20px;
+	margin: 1px
+}
+
+.popupitem_icon_disabled {
+	width: 21px;
+	height: 20px;
+	cursor: pointer;
+}
+
+.popupitem_text_disabled{
+	height: 20px;
+	cursor: pointer;
+	font:8pt tahoma;
+	color:gray;
+} 
+
+.seperator{
+	height:22px;
+	width:7px;
+	border:0px;
+}
+
+.popup_vert_icon {
+	width: 21px;
+	height: 2px;
+}
+
+.popup_vert_seperator {
+        height: 1px;
+        width: 163px;   
+        background-color: #A6A6A6;
+        float: right;
+} 
