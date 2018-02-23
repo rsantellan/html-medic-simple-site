@@ -1,7 +1,11 @@
 <?php
+session_start();
 $isPost = false;
 $formIsValid = true;
+$captchaIsValid = true;
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+	include_once $_SERVER['DOCUMENT_ROOT'] . '/securimage/securimage.php';
+	$securimage = new Securimage();
 	$isPost = true;
 	$name = isset($_POST['nombre']) ? $_POST['nombre'] : "";
 	$last_name = isset($_POST['apellido']) ? $_POST['apellido'] : "";
@@ -14,6 +18,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 		if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
 			$formIsValid = false;
 		}
+	}
+	if ($securimage->check($_POST['captcha_code']) == false) {
+		$formIsValid = false;
+		$captchaIsValid = false;
 	}
 	if($formIsValid):
 		$body = '
@@ -187,7 +195,14 @@ if(!$isPost || !$formIsValid):
 						<label>Mensaje<sup>*</sup>:</label>
 						<textarea rows="10" name="mensaje" minlength="10"  maxlength="150" style="resize: vertical"></textarea>
 						<span>*Campos Obligatorios</span><div class="clear"></div>			
-						   			
+						<div class="captcha">
+							<img id="captcha" src="/securimage/securimage_show.php" alt="CAPTCHA Image" />
+							<input type="text" name="captcha_code" size="10" maxlength="6" />
+							<a href="#" onclick="document.getElementById('captcha').src = '/securimage/securimage_show.php?' + Math.random(); return false">[ Different Image ]</a>
+							<?php if(!$captchaIsValid): ?>
+								<span class="captcha_error">Has ingresado incorrectamente la imgaen.</span>
+							<?php endif; ?>
+						</div>
 						<input type="submit" class="submit" value="enviar">
 					</form>
 				</div><!-- content text -->
